@@ -41,3 +41,8 @@ print(lista)
 
 lista.clear()
 print(lista)
+
+# Index - Con index podemos buscar un valor determinado de nuestra lista
+
+nueva_lista = [1,2,3,4,5,6,7,8]
+print(nueva_lista.index(8))
