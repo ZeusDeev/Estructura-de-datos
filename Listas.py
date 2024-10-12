@@ -49,8 +49,6 @@ print(nueva_lista.index(8))
 
 # Usando Copy para copiar lista (Copias superficial)
 
-
-
 respaldo_nueva_lista = nueva_lista.copy()
 nueva_lista.append(5)
 
