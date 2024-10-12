@@ -46,3 +46,14 @@ print(lista)
 
 nueva_lista = [1,2,3,4,5,6,7,8]
 print(nueva_lista.index(8))
+
+# Usando Copy para copiar lista (Copias superficial)
+
+
+
+respaldo_nueva_lista = nueva_lista.copy()
+nueva_lista.append(5)
+
+print(nueva_lista)
+print('***'*10)
+print(respaldo_nueva_lista)
