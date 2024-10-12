@@ -28,3 +28,16 @@ print(lista)
 
 lista.remove('manzana') #No por posicion si no por valor
 print(lista)
+
+#Elimina un elemento de nuestra lista dependiendo la posicion que querramos eliminar
+
+lista.pop(2)
+elemento_eliminado = lista.pop(0)
+
+print(elemento_eliminado)
+print(lista)
+
+# Elimina todo los elementos de la lista con Clear
+
+lista.clear()
+print(lista)
