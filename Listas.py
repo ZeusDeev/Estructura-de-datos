@@ -55,3 +55,9 @@ nueva_lista.append(5)
 print(nueva_lista)
 print('***'*10)
 print(respaldo_nueva_lista)
+
+# Usando la funcion Reverse
+
+lista3 = [1,2,3,4,5]
+lista3.reverse()
+print(lista3)
