@@ -49,17 +49,11 @@ print(nueva_lista.index(8))
 
 # Usando Copy para copiar lista (Copias superficial)
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7f372641a0c13d4aaf0a61156dcc2a41f499772c
 respaldo_nueva_lista = nueva_lista.copy()
 nueva_lista.append(5)
 
 print(nueva_lista)
 print('***'*10)
-<<<<<<< HEAD
 print(respaldo_nueva_lista)
 
 # Usando la funcion Reverse
@@ -67,6 +61,3 @@ print(respaldo_nueva_lista)
 lista3 = [1,2,3,4,5]
 lista3.reverse()
 print(lista3)
-=======
-print(respaldo_nueva_lista)
->>>>>>> 7f372641a0c13d4aaf0a61156dcc2a41f499772c
